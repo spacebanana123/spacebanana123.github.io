@@ -19,15 +19,12 @@
                 var paddleRightWall = this.x + this.width;
                 var paddleTopWall = this.y;
                 var paddleBottomWall = this.y + this.height;
-				var points = 0
-				var pointsai = 0
                 if(ball.x > paddleLeftWall 
                     && ball.x < paddleRightWall
                     && ball.y > paddleTopWall
                     && ball.y < paddleBottomWall)	
 					{
                     return true;
-					var points += 1
                 }
                 return false;
             };
